@@ -1,4 +1,4 @@
-# emotionx2019-verify
+# verify.py
 `verify.py` is a utility to verify your EmotionX 2019 submission file and make sure it's in the correct format.
 
 To use, simply run:
