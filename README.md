@@ -11,5 +11,5 @@ where
 
 `predfile` is your submission file (with predicted labels)
 
-# Misc.
+## Misc.
 If Python complains about a missing module, install it using pip (or pip3).
