@@ -3,13 +3,13 @@
 
 To use, simply run:
 
-`% python3 verify.py evalfile predfile`
+`% python3 verify.py --testfile testfile.json --predfile predfile.json`
 
 where
 
-`evalfile` is the **unlabeled** evaluation file
+`testfile.json` is the **unlabeled** evaluation file
 
-`predfile` is your submission file (with predicted labels)
+`predfile.json` is your submission file (with predicted labels)
 
 ## Misc.
 If Python complains about a missing module, install it using pip (or pip3).
