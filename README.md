@@ -7,7 +7,7 @@ To use, simply run:
 
 where
 
-`testfile.json` is the **unlabeled** evaluation file
+`testfile.json` is the **unlabeled** test file
 
 `predfile.json` is your submission file (with predicted labels)
 
