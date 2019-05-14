@@ -12,4 +12,4 @@ where
 `predfile.json` is your submission file (with predicted labels)
 
 ## Misc.
-If Python complains about a missing module, install it using pip (or pip3).
+If Python complains about a missing module, install it using `pip` (or `pip3`).
