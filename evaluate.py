@@ -47,7 +47,7 @@ def print_report(results, isjson):
             if 'title' in report:
                 print(report['title'])
             print("{} ({})".format(results['name'], results['email']))
-            print('Micro f1-micro: {:.1f}%\n'.format(results['f1-micro'] * 100))
+            print('Micro f1-score: {:.1f}%\n'.format(results['f1-micro'] * 100))
             print(results['classification_report'])
 
 def write_report(goldfile, predfile, title):
