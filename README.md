@@ -8,14 +8,15 @@ To use, simply run:
 
 where
 
-`goldfile.json` is the file with the gold labels
+`goldfile.json` is the **gold-labeled** evaluation file
 
 `predfile.json` is your submission file (with predicted labels)
 
 You will need to run it once for every dataset. For example:
 
-`% python3 evaluate.py --goldfile friends_eval_gold.json -predfile friends_pred.json`
-`% python3 evaluate.py --goldfile emotionpush_eval_gold.json -predfile emotionpush_pred.json`
+`% python3 evaluate.py --goldfile friends_eval_gold.json --predfile friends_pred.json`
+
+`% python3 evaluate.py --goldfile emotionpush_eval_gold.json --predfile emotionpush_pred.json`
 
 # verify.py
 `verify.py` is a utility to verify your EmotionX 2019 submission file and make sure it's in the correct format.
@@ -29,6 +30,12 @@ where
 `testfile.json` is the **unlabeled** evaluation file
 
 `predfile.json` is your submission file (with predicted labels)
+
+For example, for the Friends dataset, use:
+
+`% python3 verify.py --testfile friends_eval.json --predfile friends_pred.json`
+
+
 
 ## Misc.
 If Python complains about a missing module, install it using pip (or pip3).

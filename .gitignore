@@ -1,2 +1,4 @@
 data/*
 *.json
+announce*
+__pycache__/
