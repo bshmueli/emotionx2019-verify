@@ -8,7 +8,7 @@ To use, simply run:
 
 where
 
-`goldfile.json` is the **gold-labeled** file
+`goldfile.json` is the **gold-labeled** evaluation file
 
 `predfile.json` is your submission file (with predicted labels)
 
